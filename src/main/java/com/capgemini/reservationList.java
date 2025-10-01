@@ -17,5 +17,9 @@ public class reservationList {
     public String getBoatType(String BoatType) { return BoatType; }
     public String getDate(String Date) { return Date; }
     public String getTime(String Time) { return Time; }
+    @Override
+    public String toString() {
+        return "ID= " + id + " boatType= " + BoatType + " date= " + Date + " time= " + Time;
+    }
 
 }

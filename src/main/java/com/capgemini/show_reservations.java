@@ -16,7 +16,7 @@ public class show_reservations {
         this.filename = filename;
     }
 
-    private List<reservationList> Read() throws IOException{
+    public List<reservationList> Read() throws java.io.IOException {
         var reservations = Files.readAllLines(Paths.get(filename))
                 .stream()
                 .filter(line -> !line.isBlank())
@@ -33,6 +33,6 @@ public class show_reservations {
                     return results;
                 })
                 .toList();
-                return reservations;
+        return reservations;
     }
 }
