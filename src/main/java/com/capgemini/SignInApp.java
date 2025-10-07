@@ -43,9 +43,9 @@ public class SignInApp {
             }
         }
         if (isLoggedIn == 0) {
-            System.out.println("Too many attempts. Exiting.");
+            // System.out.println("Too many attempts. Exiting.");
         } else {
-            System.out.println("isLoggedIn variable: " + isLoggedIn);
+            // System.out.println("isLoggedIn variable: " + isLoggedIn);
         }
     }
 }
