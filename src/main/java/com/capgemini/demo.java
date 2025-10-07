@@ -27,6 +27,7 @@ public class Demo{
             // This feature added to allow multiple operations until sign out or list reservations is selected
             boolean continueLoop = true;
             while(continueLoop){
+                System.err.println(8);
                 System.out.println(options);
                 Scanner scanner = new Scanner(System.in);
                 String option = scanner.nextLine();
